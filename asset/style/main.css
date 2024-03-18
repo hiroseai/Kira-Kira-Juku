@@ -503,7 +503,7 @@ li {
 
 .top-wrapper {
   position: absolute;
-  top: 18.5%;
+  top: 20%;
   left: 4.27vw;
 }
 
@@ -520,7 +520,7 @@ li {
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  margin-bottom: 2.13vw;
+  margin-bottom: 5.12vw;
 }
 
 @media (min-width: 768px) {
@@ -537,12 +537,13 @@ li {
 
 .top-catch-text {
   text-align: center;
+  line-height: 1;
 }
 
 @media (min-width: 768px) {
   .top-catch-text {
     padding: 0 1.25vw;
-  }
+      }
 }
 
 @media (min-width: 1920px) {
@@ -554,6 +555,7 @@ li {
 .top-catch-one {
   font-size: 2.93vw;
   font-weight: 400;
+  display: block;
 }
 
 @media (min-width: 768px) {
@@ -574,12 +576,14 @@ li {
   font-family: 'Poppins', sans-serif;
   font-style: italic;
   color: #f11f8d;
+  display: block;
   line-height: 1.4;
 }
 
 @media (min-width: 768px) {
   .top-catch-two {
     font-size: 2.81vw;
+    line-height: 1.4;
   }
 }
 
@@ -609,25 +613,10 @@ li {
   }
 }
 
-.top-text-body {
-  line-height: 1.4;
-}
-
-@media (min-width: 768px) {
-  .top-text-body {
-    line-height: 1.475;
-  }
-}
-
-@media (min-width: 1920px) {
-  .top-text-body {
-    line-height: 1.475;
-  }
-}
-
 .top-text-sub {
   font-size: 3.73vw;
   font-weight: 400;
+  display: block;
 }
 
 @media (min-width: 768px) {
@@ -646,6 +635,7 @@ li {
   font-size: 6.67vw;
   font-weight: 900;
   color: #005bac;
+  display: block;
 }
 
 @media (min-width: 768px) {
