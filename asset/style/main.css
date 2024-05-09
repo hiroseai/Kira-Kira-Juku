@@ -94,7 +94,7 @@ li {
     font-size: 1.25vw;
     border-radius: 2.5vw;
     width: 18.75vw;
-    margin: 0 auto;
+    margin: 0;
     padding: 1.02vw 0 1.02vw 1.25vw;
   }
 }
@@ -1039,6 +1039,8 @@ li {
 @media (min-width: 768px) {
   .contact-button-group {
     display: flex;
+    justify-content: center;
+    column-gap: 4.2rem;
   }
 }
 
