@@ -29,7 +29,6 @@ html {
   }
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -37,6 +36,10 @@ html {
 a {
   color: #ffffff;
   text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.6;
 }
 
 img {
